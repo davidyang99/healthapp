@@ -1,0 +1,74 @@
+<!-- saved from url=(0022)http://internet.e-mail -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Hematopatholgy eTutorial</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/css?family=Alatsi&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="../static/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="../static/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="blue" role="navigation">
+    <div class="nav-wrapper container">
+      <a href="#Home" class = "white-text" class="brand-logo">Home</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a class = "white-text" href="#About">About</a></li>
+        <li><a class = "white-text" href="#Lessons">Lessons</a></li>
+        <li><a class = "white-text" href="#Lessons">Tools</a></li>
+        <li><a class = "white-text" href="#Contact">Contact</a></li>
+
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+         <li><a href="#About">About</a></li>
+         <li><a href="#Lessons">Lessons</a></li>
+         <li><a href="#Lessons">Tools</a></li>
+         <li><a href="#Contact">Contact</a></li>
+
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger white-text"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+ 	{% block content %}
+
+{% endblock %}
+ <footer style = "background-color: #2196f3" id = 'Contact' class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Contact Jerald Gong, MD</h5>
+                <a class = "grey-text text-lighten-4" ><i class="tiny material-icons">contact_mail</i> Email: gong.jefferson@gmail.com</a><br><i class="tiny material-icons">contact_phone</i>
+                <a class = "grey-text text-lighten-4" >(111) 222-3333</a>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Additional Information</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-4" href="https://www.jefferson.edu/university/jmc/departments/pathology.html" target="_blank">Jefferson Pathology Department</a></li>
+                    <li><a class="grey-text text-lighten-4" href="https://www.jefferson.edu/university/jmc/departments/pathology/education/fellowships/hematopathology.html" target="_blank">Jefferson Pathology Hematopathology</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            Copyrights Hematopathology eTutorial <br>
+            Designed and engineered by KennearTech Corporation & 360DataService Inc.
+            </div>
+          </div>
+        </footer>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="../static/js/materialize.js"></script>
+  <script src="../static/js/init.js"></script>
+
+</body>
+</html>
